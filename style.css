@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.dir-container,
+.ingredients {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ingredients {
+    display: flex;
+    align-items: center;
+}
+
+.ingredients div {
+    background-color: #f5f6ea;
+}
+
+.ingredients h2 {
+    padding-left: 1em;
+}
+
+hr {
+    width: 80%;
+}
+
+ol>li::marker {
+    font-weight: bold;
+}
+
+section {
+    font-family: GTHaptikBold, Helvetica, Arial, Sans-serif;
+}
+
+li {
+    margin: 1.2em;
+}
